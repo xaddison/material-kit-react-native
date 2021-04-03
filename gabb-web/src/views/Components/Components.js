@@ -38,17 +38,17 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="Material Kit React"
+        brand="Gabb Global | Immersive Learning in VR and beyond"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
         changeColorOnScroll={{
           height: 400,
-          color: ""
+          color: "blue"
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/bg4.jpg")}>
+      <Parallax image={require("./assets/img/backk.png")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
