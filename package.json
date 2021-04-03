@@ -5,7 +5,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
-    "start": "cross-env REACT_EDITOR=code expo start",
+    "start": "NODE_PATH=./src react-scripts start",
     "android": "cross-env REACT_EDITOR=code expo start --android",
     "ios": "cross-env REACT_EDITOR=code expo start --ios",
     "eject": "expo eject",
